@@ -1,0 +1,22 @@
+cd desktop
+mkdir story 
+cd story
+touch chapter1.txt
+open chapter1.txt
+git init
+ls -a   //to see all the hidden folder
+git status//to see whats inside your staging area
+git add chapter1.txt
+git status
+git commit -m "completed  chapter1"  //to commit this under version control
+//in order to start tracking the changes of my files thn i need to add this file to a staging area 
+ that is basically an intermediate place where u can pick and choose which files inside your working
+directory that u want to commit
+ untracked files will b shown in red inside ur working directory
+git log //to see what commits u hav made
+git add .  //to specify everything inside this current directory
+git diff chapter3.txt
+git checkout chapter3.txt
+git remote add origin https://www.
+git push -u origin master 
+ab
